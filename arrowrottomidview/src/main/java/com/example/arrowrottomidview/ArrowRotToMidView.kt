@@ -216,4 +216,13 @@ class ArrowRotToMidView(ctx : Context) : View(ctx) {
             }
         }
     }
+
+    companion object {
+
+        fun create(activity : Activity) : ArrowRotToMidView {
+            val view : ArrowRotToMidView = ArrowRotToMidView(activity)
+            activity.setContentView(view)
+            return view
+        }
+    }
 }
