@@ -44,7 +44,7 @@ fun Canvas.drawArrowRotToMid(scale : Float, w : Float, h : Float, paint : Paint)
         save()
         scale(1f  - 2 * j, 1f - 2 * j)
         rotate(rot * sf4)
-        for (k in 0..1) {
+        for (k in 0..2) {
             save()
             translate((w / 2 - size) * (1 - sf3) + size, 0f)
             rotate((1f - k) * deg * sf2)
