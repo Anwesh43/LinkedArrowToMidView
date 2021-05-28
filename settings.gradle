@@ -1,0 +1,3 @@
+include ':arrowrottomidview'
+include ':app'
+rootProject.name = "LinkedArrowRotToMidView"
