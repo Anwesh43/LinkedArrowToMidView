@@ -9,11 +9,11 @@ import android.graphics.Color
 import android.graphics.Paint
 
 val colors : Array<Int> = arrayOf(
-    "",
-    "",
-    "",
-    "",
-    ""
+    "#f44336",
+    "#673AB7",
+    "#00C853",
+    "#304FFE",
+    "#BF360C"
 ).map {
     Color.parseColor(it)
 }.toTypedArray()
